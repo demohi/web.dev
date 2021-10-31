@@ -14,6 +14,6 @@ import '../components/LighthouseScoresStats';
 import '../components/LighthouseViewer';
 import '../components/UrlChooser';
 import '../components/UrlChooserContainer';
-import '../components/SigninButton';
+// import '../components/SigninButton';
 
 import '../components/base';

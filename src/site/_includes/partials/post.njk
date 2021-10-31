@@ -29,7 +29,7 @@
   <web-table-of-contents-button></web-table-of-contents-button>
 
   {# Make sure Actions are first in the tab order. #}
-  <div class="w-actions">
+  {# <div class="w-actions">
     <share-action authors="{{ authors | expandAuthors(collections.authors, lang) }}"
       class="gc-analytics-event w-actions__fab w-actions__fab--share"
       data-category="web.dev"
@@ -42,7 +42,7 @@
       <span>{{ 'i18n.common.share' | i18n(locale) }}</span>
     </share-action>
     {% include 'partials/subscribe-action.njk' %}
-  </div>
+  </div> #}
 
   <div class="w-layout-container--narrow w-post-content">
     <header class="w-article-header">
