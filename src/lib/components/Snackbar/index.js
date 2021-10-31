@@ -59,31 +59,10 @@ class Snackbar extends BaseElement {
     setTimeout(() => (this.animatable = false), ms);
   }
 
-  get cookiesTemplate() {
-    return html`
-      <div class="web-snackbar__label" role="status">
-        We serve cookies on this site to analyze traffic, remember your
-        preferences, and optimize your experience.
-      </div>
-      <div class="web-snackbar__actions">
-        <a
-          href="https://policies.google.com/technologies/cookies"
-          class="w-button web-snackbar__action"
-          >More details</a
-        >
-        <button @click=${this.action} class="w-button web-snackbar__action">
-          OK
-        </button>
-      </div>
-    `;
-  }
 
   render() {
     let template;
     switch (this.type) {
-      case 'cookies':
-        template = this.cookiesTemplate;
-        break;
       default:
         break;
     }

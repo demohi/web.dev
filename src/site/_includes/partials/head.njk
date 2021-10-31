@@ -83,8 +83,5 @@ loadScript('{{ helpers.hashForProd('/js/app.js') }}', 'module');
 {% else %}
   loadScript('{{ helpers.hashForProd('/js/default.js') }}', 'module');
 {% endfor %}
-{# {% if process.env.ELEVENTY_ENV === 'prod' %} #}
-  loadScript('https://www.google-analytics.com/analytics.js', null);
-{# {% endif %} #}
 {% endset %}
 <script>{{ scriptLoader | minifyJs | cspHash | safe }}</script>

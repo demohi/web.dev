@@ -43,18 +43,6 @@ pageScripts:
       {% endif %}
 
       {{ content | safe }}
-      {% if related_post %}
-        {% ArticleNavigation {
-          back: '/' + related_post,
-          backLabel: 'Return to article'
-        } %}
-      {% elif path %}
-        {% ArticleNavigation {
-          back: '/' + path.slug,
-          backLabel: 'Return to all articles',
-          path: page
-        } %}
-      {% endif %}
     </div>
   </web-codelab>
 </div>
