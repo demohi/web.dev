@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "scripts": {
     "algolia": "node algolia.js",
-    "build": "npm-run-all clean gulp ignore rollup eleventy gulp:default-locale firebase-config",
+    "build": "npm-run-all clean gulp ignore rollup eleventy gulp:default-locale",
     "clean": "rimraf dist",
     "cloud-secrets": "node ./cloud-secrets.js",
     "coverage:integration": "c8 npm-run-all test:lib test:unit test:integration",
@@ -14,7 +14,7 @@
     "debug:test:integration": "node --inspect-brk ./node_modules/.bin/mocha ./test/integration",
     "debug:test:lib": "TEST_MODE=debug npm-run-all clean rollup --parallel watch:rollup karma",
     "debug:test:unit": "node --inspect-brk ./node_modules/.bin/mocha ./test/unit",
-    "deploy": "ELEVENTY_ENV=prod npm-run-all build deploy:firebase algolia",
+    "deploy": "ELEVENTY_ENV=prod npm-run-all build",
     "deploy:firebase": "firebase deploy --non-interactive",
     "dev": "npm-run-all clean ignore rollup gulp eleventy --parallel watch:rollup watch:eleventy watch:gulp watch:patterns firebase-config start",
     "dev:light": "npm-run-all clean ignore rollup gulp eleventy --parallel watch:rollup watch:eleventy watch:gulp watch:patterns firebase-config eleventy:serve",
