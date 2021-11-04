@@ -1,7 +1,7 @@
 ---
 title: Styling forms
 description: >
-  In this module, you learn how to style forms.
+  Style forms using CSS, while ensuring they remain usable and readable for everyone.
 authors:
   - michaelscharnagl
 date: 2021-11-03
@@ -15,7 +15,7 @@ job: `<input>`, `<textarea>`, `<select>`, and `<button>`. This is the baseline f
 {% Codepen {
   user: 'web-dot-dev',
   id: '9d0576454b3b2d0fc001addab70d25bc',
-  height: 300
+  height: 250
 } %}
 
 The default browser styles don't look great! Let's change that.
@@ -68,7 +68,7 @@ to help users understand which elements belong together.
 {% Codepen {
   user: 'web-dot-dev',
   id: 'f2aca03916816074010e896f064f456a',
-  height: 300
+  height: 450
 } %}
 
 The `margin` CSS property increases space between elements, 

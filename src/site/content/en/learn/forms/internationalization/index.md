@@ -1,7 +1,7 @@
 ---
 title:  Internationalization and localization
 description: >
-  In this module, you learn how to be prepared for international data formats, and how to plan your form for localization.
+  Be prepared for international data formats, and learn how to plan your form for localization.
 authors:
   - michaelscharnagl
 date: 2021-11-03
@@ -31,8 +31,10 @@ How can you make sure search engines and browsers know about the translated vers
 You can add `<link>` elements in your site's  `<head>` describing the alternate versions.
 
 ```html
-<link rel="alternate" title="Title in English" href="https://example.com/en/form" hreflang="en">
-<link rel="alternate" title="Title in German" href="https://example.com/de/form" hreflang="de">
+<link rel="alternate" title="The form element" 
+  href="https://example.com/en/form" hreflang="en">
+<link rel="alternate" title="Das Formularelement" 
+  href="https://example.com/de/form" hreflang="de">
 ```
 
 ## Help users who speak another language to use your form
@@ -78,7 +80,7 @@ you can use [CSS logical properties](https://developer.mozilla.org/docs/Web/CSS/
 
 The input has a border thickness of `1px` on all sides,
 except on the left side, where the border is `4px` thick.
-Now, edit the CodePen and change the writing system to right to left
+Now, edit the [CodePen](https://codepen.io/web-dot-dev/pen/043b19ee429ea0834022967e2207d6b9) and change the writing system to right to left
 by adding `dir="rtl"` to the `<main>` element
 
 {% Aside %}

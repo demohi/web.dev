@@ -178,7 +178,7 @@ dd + dt {
 /// Blockquotes
 
 blockquote {
-  font-size: get-size('size-4');
+  font-size: get-size('size-3');
   text-align: center;
 
   @include apply-utility('font', 'brand');
@@ -202,11 +202,11 @@ blockquote {
 
 /// <q> elements are ideal, but we need to make sure
 /// any element is styled as a quote
-blockquote > *::before {
+blockquote > *:not(:last-child)::before {
   content: open-quote;
 }
 
-blockquote > *::after {
+blockquote > *:not(:last-child)::after {
   content: close-quote;
 }
 
@@ -394,6 +394,7 @@ details summary {
   font-size: get-size('size-2');
   list-style: none;
   cursor: pointer;
+  padding-right: get-space('size-1'); // Prevent overlap with ::before element
 
   @include apply-utility('color', 'action-text');
   @include apply-utility('weight', 'regular');
@@ -662,6 +663,7 @@ web-copy-code {
 @import 'blocks/browser-compat';
 @import 'blocks/button';
 @import 'blocks/card';
+@import 'blocks/carousel';
 @import 'blocks/compare';
 @import 'blocks/counter';
 @import 'blocks/eyebrow';
@@ -710,6 +712,8 @@ web-copy-code {
 @import 'pages/course';
 @import 'pages/design-system';
 @import 'pages/homepage';
+@import 'pages/landing-page';
+@import 'pages/learn';
 @import 'pages/measure';
 
 // The prototype file is for temporary prototyping

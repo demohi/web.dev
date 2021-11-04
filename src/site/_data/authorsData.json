@@ -1014,6 +1014,13 @@
     "country": "US",
     "image": "image/ZDZVuXt6QqfXtxkpXcPGfnygYjd2/lYPo8w4ZwA465hg323uT.jpg"
   },
+  "cambickel": {
+    "twitter": "camdenbickel",
+    "github": "camden",
+    "homepage": "https://cambickel.com",
+    "country": "US",
+    "image": "image/eiKy1JcjHqPp3gaedjAQWjPJ8YK2/qTCSbuHdDVtzqMKnDUJx.jpg"
+  },
   "michaelscharnagl": {
     "twitter": "justmarkup",
     "homepage": "https://justmarkup.com",
@@ -1070,5 +1077,21 @@
   },
   "alexcastle": {
     "image": "image/IypihH3o5cSpEMVp5i08dp69otp2/ofc2dLwuNURvRIMvTdIv.jpeg"
+  },
+  "behdadb": {
+    "country": "Canada",
+    "github": "behdadb",
+    "image": "image/nM10iAStORWg0YlDbPc2czmpRRr2/yNf8CJMxm2ZigCktK56g.jpg"
+  },
+  "jonross": {
+    "country": "Canada",
+    "github": "jonrossca",
+    "image": "image/nM10iAStORWg0YlDbPc2czmpRRr2/js2VCA8TRNRK2nYwhQFG.jpg"
+  },
+  "bckenny": {
+    "country": "US",
+    "twitter": "brendankenny",
+    "github": "brendankenny",
+    "image": "image/MtjnObpuceYe3ijODN3a79WrxLU2/sWOfAs4f2WyQMMF9xt1A.jpg"
   }
 }

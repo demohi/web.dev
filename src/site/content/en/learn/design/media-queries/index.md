@@ -132,14 +132,14 @@ Or using separate stylesheets:
 ```
 
 {% Codepen {
- user: 'adactio',
- id: 'QWgxXdP',
+ user: 'web-dot-dev',
+ id: 'qBXVowV',
  height: 500,
  theme: 'dark',
  tab: 'result'
 } %}
 
-{% Video src="video/KT4TDYaWOHYfN59zz6Rc0X4k4MH3/gtBzPVsBu5mtnX8RuSqJ.mp4" %}
+{% Video src="video/KT4TDYaWOHYfN59zz6Rc0X4k4MH3/gtBzPVsBu5mtnX8RuSqJ.mp4", autoplay=true, controls=true, loop=true %}
 
 While using separate stylesheets for different media _types_—like `print`—might be okay, 
 it's probably not a good idea to use a separate stylesheet for every media _query_. Use `@media` at-rules instead.
@@ -184,14 +184,14 @@ Use the word `and` to combine your media queries:
 ```
 
 {% Codepen {
- user: 'adactio',
- id: 'Pojxrep',
+ user: 'web-dot-dev',
+ id: 'GRvOxaw',
  height: 500,
  theme: 'dark',
  tab: 'result'
 } %}
 
-{% Video src="video/KT4TDYaWOHYfN59zz6Rc0X4k4MH3/eDf5v1QMwLX19pcJAgYE.mp4" %}
+{% Video src="video/KT4TDYaWOHYfN59zz6Rc0X4k4MH3/eDf5v1QMwLX19pcJAgYE.mp4", autoplay=true, controls=true, loop=true %}
 
 ## Choose breakpoints based on the content
 
@@ -212,12 +212,14 @@ Using the `column-count` property, the text is divided into two columns from tha
 ```
 
 {% Codepen {
- user: 'adactio',
- id: 'dyRwZxG',
+ user: 'web-dot-dev',
+ id: 'oNeodgd',
  height: 500,
  theme: 'dark',
  tab: 'result'
 } %}
+
+{% Video src="video/KT4TDYaWOHYfN59zz6Rc0X4k4MH3/mrQlcyih7IcZxswI1lMx.mp4", autoplay=true, controls=true, loop=true %}
 
 ## Combinations
 
@@ -240,12 +242,14 @@ Those breakpoints were chosen based on the amount of content.
 ```
 
 {% Codepen {
- user: 'adactio',
- id: 'mdwaprw',
+ user: 'web-dot-dev',
+ id: 'JjyOvdM',
  height: 1000,
  theme: 'dark',
  tab: 'result'
 } %}
+
+{% Video src="video/KT4TDYaWOHYfN59zz6Rc0X4k4MH3/oKRBxhrHzAzebYwxptsv.mp4", autoplay=true, controls=true, loop=true %}
 
 These examples show how media queries can be used to adapt designs to the form factor of a user's device, 
 but these just scratch the surface of possibilities. Media queries can go far beyond width and height, 

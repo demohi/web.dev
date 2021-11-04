@@ -79,8 +79,8 @@ The browser generates a crawlbar—the horizontal equivalent of a scrollbar—an
 </figure>
 
 {% Codepen {
- user: 'adactio',
- id: 'KKqBPPy',
+ user: 'web-dot-dev',
+ id: 'RwZjwoQ',
  height: 500,
  theme: 'dark',
  tab: 'result'
@@ -114,14 +114,14 @@ On a narrow screen, the user would have to move the whole page left and right to
 
 <figure class="w-figure">
 {% Codepen {
- user: 'adactio',
- id: 'WNOKexX',
+ user: 'web-dot-dev',
+ id: 'YzxEzpE',
  height: 500,
  theme: 'dark',
  tab: 'result'
 } %}
 
-<figcaption class="w-figcaption">Open <a href="https://codepen.io/adactio/full/WNOKexX">the liquid layout example</a> 
+<figcaption class="w-figcaption">Open <a href="https://codepen.io/web-dot-dev/pen/YzxEzpE">the liquid layout example</a> 
 in a new browser window to see how changing the size of the window stretches the design.</figcaption>
 </figure>
 
@@ -166,13 +166,13 @@ But given the variety of device sizes, chances are the layout will look less tha
 
 <figure class="w-figure">
 {% Codepen {
- user: 'adactio',
- id: 'jOwpNgX',
+ user: 'web-dot-dev',
+ id: 'oNeoNYw',
  height: 500,
  theme: 'dark',
  tab: 'result'
 } %}
-<figcaption class="w-figcaption">Open <a href="https://codepen.io/adactio/full/jOwpNgX">the adaptive layout example</a> 
+<figcaption class="w-figcaption">Open <a href="https://codepen.io/web-dot-dev/pen/oNeoNYw">the adaptive layout example</a> 
 in a new browser window to see how changing the size of the window causes the design to jump between layouts.</figcaption>
 </figure>
 
@@ -182,13 +182,13 @@ If adaptive layouts are a mashup of media queries and fixed-width layouts, respo
 
 <figure class="w-figure">
 {% Codepen {
- user: 'adactio',
- id: 'VwWBKPV',
+ user: 'web-dot-dev',
+ id: 'JjyOjbE',
  height: 500,
  theme: 'dark',
  tab: 'result'
 } %}
-<figcaption class="w-figcaption">Open <a href="https://codepen.io/adactio/full/VwWBKPV">the responsive design example</a> 
+<figcaption class="w-figcaption">Open <a href="https://codepen.io/web-dot-dev/pen/JjyOjbE">the responsive design example</a> 
 in a new browser window to see how changing the size of the window causes the design to fluidly change layout.</figcaption>
 </figure>
 

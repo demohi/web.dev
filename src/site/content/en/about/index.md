@@ -1,8 +1,5 @@
 ---
 layout: 'about-next'
-draft: true
-noindex: true
-permalink: '/about-new/index.html'
 title: 'About web.dev'
 intro:
   title: 'Building a better web, together'
@@ -46,7 +43,7 @@ otherResources:
     - title: 'Chrome Updates'
       link: '#'
       summary: 'Donec id elit non mi porta gravida at eget metus.'
-    - title: 'Podcasts'
-      link: '#'
-      summary: 'Donec id elit non mi porta gravida at eget metus.'
+    - title: 'Google Chrome Developers on Youtube'
+      link: 'https://www.youtube.com/c/GoogleChromeDevelopers/videos'
+      summary: 'Keep up to date with all that’s new on the web platform with videos from the Chrome team.'
 ---
